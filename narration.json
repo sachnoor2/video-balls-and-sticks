@@ -1,0 +1,59 @@
+{
+  "fps": 30,
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "lang": "en-us",
+  "speed": 1.0,
+  "pad": 0.7,
+  "minSeconds": 4.0,
+  "scenes": [
+    {
+      "id": "01-title",
+      "text": "Balls and sticks. In combinatorics this is the method that counts distributions. It answers questions like, in how many ways can identical balls go into different boxes. The answer is n plus r minus one, choose r minus one. Let us derive it from nothing."
+    },
+    {
+      "id": "02-problem",
+      "text": "Here is the problem. We have n identical balls. We have r different boxes. Every ball goes into one box, and a box is allowed to stay empty. How many different outcomes are there? Two outcomes differ only if some box holds a different number of balls."
+    },
+    {
+      "id": "03-small",
+      "text": "Start with the smallest interesting case. Three balls and two boxes. We can simply list everything. Three in the first box and none in the second. Two and one. One and two. None and three. That is four outcomes, and nothing clever has happened yet."
+    },
+    {
+      "id": "04-picture",
+      "text": "Now draw the same situation differently. Line the three balls up in a row. Drop a single stick between them. Everything to the left of the stick belongs to box one. Everything to the right belongs to box two. The stick is the wall between the boxes."
+    },
+    {
+      "id": "05-empty",
+      "text": "Notice what the stick is allowed to do. Place it at the very start, and box one is empty. Place it at the very end, and box two is empty. There are four places for one stick among three balls. So there are four outcomes, and the picture agrees with the list."
+    },
+    {
+      "id": "06-general",
+      "text": "Now generalise the picture. With r boxes you need r minus one walls, because walls between boxes are one fewer than the boxes themselves. You still have all n balls. So the row holds n plus r minus one symbols, some of them balls, and some of them sticks."
+    },
+    {
+      "id": "07-choose",
+      "text": "Every arrangement of that row is one outcome, and every outcome is one arrangement. Nothing is lost either way. So counting outcomes becomes counting arrangements. Take the n plus r minus one positions. Choose which r minus one of them hold sticks. Every other position holds a ball."
+    },
+    {
+      "id": "08-formula",
+      "text": "That is the whole derivation. The number of ways is n plus r minus one, choose r minus one. You could equally choose the positions of the balls, giving n plus r minus one, choose n. The two are equal, because choosing the sticks also fixes the balls."
+    },
+    {
+      "id": "09-check",
+      "text": "Check it against the case we listed. Three plus two minus one is four. Four choose one is four. That matches the four rows we wrote by hand, so the picture did not change the answer, only the way we count it."
+    },
+    {
+      "id": "10-bigger",
+      "text": "Now something too big to list. Five balls and three boxes. Five plus three minus one is seven, and seven choose two is twenty one. We can still check by hand. Count by the first box. Six, then five, four, three, two, one. That sums to twenty one."
+    },
+    {
+      "id": "11-pitfall",
+      "text": "One warning. This method counts labelled boxes, and it treats the balls as identical. If the boxes were identical too, swapping the contents of two boxes would not be a new outcome, and this formula would overcount."
+    },
+    {
+      "id": "12-recap",
+      "text": "So remember the picture. n balls, r minus one sticks, and n plus r minus one positions in a row. Choose where the sticks go, and you have counted every outcome. n plus r minus one, choose r minus one."
+    }
+  ]
+}
