@@ -1,0 +1,94 @@
+{
+  "fps": 30,
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "lang": "en-us",
+  "totalSeconds": 124.0,
+  "totalFrames": 3972,
+  "scenes": [
+    {
+      "id": "01-title",
+      "audio": "audio/01-title.wav",
+      "seconds": 10.0,
+      "frames": 321,
+      "voice": "am_michael"
+    },
+    {
+      "id": "02-problem",
+      "audio": "audio/02-problem.wav",
+      "seconds": 11.0,
+      "frames": 351,
+      "voice": "am_michael"
+    },
+    {
+      "id": "03-small",
+      "audio": "audio/03-small.wav",
+      "seconds": 10.5,
+      "frames": 336,
+      "voice": "am_michael"
+    },
+    {
+      "id": "04-picture",
+      "audio": "audio/04-picture.wav",
+      "seconds": 10.0,
+      "frames": 321,
+      "voice": "am_michael"
+    },
+    {
+      "id": "05-empty",
+      "audio": "audio/05-empty.wav",
+      "seconds": 11.0,
+      "frames": 351,
+      "voice": "am_michael"
+    },
+    {
+      "id": "06-general",
+      "audio": "audio/06-general.wav",
+      "seconds": 11.0,
+      "frames": 351,
+      "voice": "am_michael"
+    },
+    {
+      "id": "07-choose",
+      "audio": "audio/07-choose.wav",
+      "seconds": 11.0,
+      "frames": 351,
+      "voice": "am_michael"
+    },
+    {
+      "id": "08-formula",
+      "audio": "audio/08-formula.wav",
+      "seconds": 10.5,
+      "frames": 336,
+      "voice": "am_michael"
+    },
+    {
+      "id": "09-check",
+      "audio": "audio/09-check.wav",
+      "seconds": 10.0,
+      "frames": 321,
+      "voice": "am_michael"
+    },
+    {
+      "id": "10-bigger",
+      "audio": "audio/10-bigger.wav",
+      "seconds": 11.0,
+      "frames": 351,
+      "voice": "am_michael"
+    },
+    {
+      "id": "11-pitfall",
+      "audio": "audio/11-pitfall.wav",
+      "seconds": 9.0,
+      "frames": 291,
+      "voice": "am_michael"
+    },
+    {
+      "id": "12-recap",
+      "audio": "audio/12-recap.wav",
+      "seconds": 9.0,
+      "frames": 291,
+      "voice": "am_michael"
+    }
+  ]
+}
